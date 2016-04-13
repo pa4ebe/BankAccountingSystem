@@ -2,7 +2,7 @@
 Team "Earth" QA teamwork project
 #### 1. Team members
 
-| Username | User Name |
+| Username |  Name |
 | ------------- | ------------- |
 | Radomir | Radomir Kolev  |
 | Eljunia  | Angela Teneva  |
