@@ -8,6 +8,6 @@ Team "Earth" QA teamwork project
 | Eljunia  | Angela Teneva  |
 | slav_97  | Slav Radev  |
 | iliev72  | Iliyan Iliev  |
-| PlDim  | PlDim |
+| PlDim  | Plamen Dimitrov |
 | vasil.jivkov  | Vasil Arabadzhiev   |
 | stef217  | Stefan Dimitrov   |
