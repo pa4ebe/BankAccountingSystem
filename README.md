@@ -5,7 +5,7 @@ Team "Earth" QA teamwork project
 | Username |  Name |
 | ------------- | ------------- |
 | Radomir | Radomir Kolev  |
-| Eljunia  | Angela Teneva  |
+| Eljunia  | Angela Teneva  | Aliasin GIT: studware
 | slav_97  | Slav Radev  |
 | iliev72  | Iliyan Iliev  |
 | PlDim  | Plamen Dimitrov |
