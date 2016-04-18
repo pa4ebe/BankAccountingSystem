@@ -56,16 +56,69 @@
 
         <!-- Page Content -->
         <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1>Simple Sidebar</h1>
-                        <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-                        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
-                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
-                    </div>
-                </div>
-            </div>
+            <form id="Form_go" action="/finance/compound-interest-calculator/go" method="post" enctype="application/x-www-form-urlencoded" class="stack InterestCalculatorTool financeCalculator">
+
+	
+	<p id="Form_go_error" class="message " style="display: none"></p>
+	
+	
+	<fieldset><div id="Currency" class="field dropdown">
+	<label class="left" for="Form_go_Currency">Currency</label>
+	<div class="middleColumn">
+		<select name="Currency" class="dropdown" id="Form_go_Currency"><option value="dollar">Dollar ($)</option><option value="euro">Euro (€)</option><option value="pound">Pound (£)</option><option value="rubles">Rubles (руб)</option><option value="rupee">Rupee (INR)</option><option value="yen">Yen (¥)</option><option value="other">Other</option></select></div>
+	
+	
+	
+</div>
+		
+			<div id="Start" class="field numeric text smallinput slider">
+	<label class="left" for="Form_go_Start">Base amount:</label>
+	<div class="middleColumn">
+		<input type="text" name="Start" value="0" class="numeric text smallinput slider" id="Form_go_Start"></div><div class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;"></a></div>
+	
+	
+	
+</div>
+		
+			<div id="Interest" class="field numeric text smallinput slider">
+	<label class="left" for="Form_go_Interest">Annual interest rate (%)</label>
+	<div class="middleColumn">
+		<input type="text" name="Interest" value="0" class="numeric text smallinput slider" id="Form_go_Interest"></div><div class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;"></a></div>
+	
+	
+	
+</div>
+		
+			<div id="Period" class="field numeric text smallinput slider">
+	<label class="left" for="Form_go_Period">Calculation period (years)</label>
+	<div class="middleColumn">
+		<input type="text" name="Period" value="0" class="numeric text smallinput slider" id="Form_go_Period"></div><div class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;"></a></div>
+	
+	
+	
+</div>
+		
+			<div id="Addition" class="field numeric text smallinput slider">
+	<label class="left" for="Form_go_Addition">Additional monthly deposit?:</label>
+	<div class="middleColumn">
+		<input type="text" name="Addition" value="0" class="numeric text smallinput slider" id="Form_go_Addition"></div><div class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;"></a></div>
+	
+	
+	
+</div>
+		
+			<h2 class="total"><small>Quick calculation:<br></small>Total amount after <span id="years">0</span> years: 
+				<span id="totalamount">0</span></h2>
+				<h3 class="total">Total interest: <span id="totalinterest">0</span></h3>
+		
+			<input type="hidden" name="SecurityID" value="aa358df8abcb6fa4fb1e23e5e1bc74bfba7148cc" class="hidden" id="Form_go_SecurityID"><div class="clear"><!-- --></div>
+	</fieldset><div class="Actions">
+		
+			
+	<input type="submit" name="action_Process" value="Show detailed calculations" class="action blue" id="Form_go_action_Process"></div>
+	
+
+</form>
         </div>
         <!-- /#page-content-wrapper -->
 
